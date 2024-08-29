@@ -33,6 +33,5 @@ for lareate in laureates:
     if lareate['name'][0] == "A":
         laureates_beginning_with_a.append(lareate)
 
-
 with open("laureates.json", "w") as f:
     json.dump(laureates_beginning_with_a, f, indent=2)
